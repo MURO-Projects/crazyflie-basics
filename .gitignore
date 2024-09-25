@@ -6,3 +6,7 @@ cf_workspace/log/
 cyclic_persuit/__pycache__/
 cache/
 **/rosbag_data/optitrack/
+**/build/
+**/install/
+**/install/
+**/log/

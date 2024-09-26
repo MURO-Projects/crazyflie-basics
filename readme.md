@@ -70,6 +70,18 @@ You should be able to scan and connect to a Crazyflie using USB of Crazyradio
 
 Connecting to a Crazyflie using USB cable
 
+# Install `cfclient`
+
+~~~
+git clone https://github.com/bitcraze/crazyflie-clients-python
+cd crazyflie-clients-python
+~~~
+~~~
+pip3 install -e .
+~~~
+Now you should be able to run `cfclient`
+
+
 # Connecting to a Crazyflie using USB cable
 
 1. Open a new terminal
@@ -99,6 +111,7 @@ Done!
 3. Run `cfclient`
 4. Put in the address you set in the last tutorial in the address text field
 5.  Hit connect
+
 
 
 # Use crazy-radio with wsl2 tutorial
